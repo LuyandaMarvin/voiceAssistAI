@@ -1,4 +1,4 @@
-export const apiKey = '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';
+export const apiKey = process.env.OPEN_AI_KEY;
 // in some cases your api key maybe already expired
 // try to use a new account to create an api key
 
